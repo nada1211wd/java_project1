@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+
     public static void main(String[] args) {
         List<String> skills = new ArrayList<>();
         // create instance from class player
@@ -32,12 +32,12 @@ public class Main {
         System.out.println( coach1.get_role());
         // create instance from class footballer
         Footballer team=new Footballer("liver pool","central",skills,"liver pool" ,"High Pressing");
-        Player player3=new Player("Virgil van Disk","left wing",skills);
+        //Player player3=new Player("Virgil van Disk","left wing",skills);
         System.out.println(team.getTeamName("liver pool"));
         team.remove_player(player1);
         team.change_plan("attacking");
 
 }
-}
+
 
 
