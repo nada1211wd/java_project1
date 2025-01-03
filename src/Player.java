@@ -49,12 +49,16 @@ public class Player implements IPerson {
     }
 
 
-
-    // create update methods to change player position
+ // overload update methods to change player position
    public void Update_position(String newposition){
       System.out.println(name+ " "+ "update to "+ newposition);
 
    }
+    // overload update methods to change player position
+    public void Update_position( String name ,String newposition){
+        System.out.println(name+ " "+ "update to "+ newposition);
+
+    }
      // create improve skill methods to add new sill for player
      public void improveskill( String newskill){
          skills.add("shooting");
